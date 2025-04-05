@@ -1,7 +1,7 @@
 import React from 'react'
 import vector from '../../assets/images/Vector.png'
 import { ArrowRightIcon } from 'lucide-react'
-import pattern from '../../assets/images/background.png'
+import pattern from '../../assets/images/sidepattern.png'
 
 export default function EveryWhere() {
     return <>
