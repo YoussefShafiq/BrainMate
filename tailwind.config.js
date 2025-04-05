@@ -18,8 +18,7 @@ export default {
         extraBold: 800,
       },
       backgroundImage: {
-        'bg-pattern': "url('./src/assets/images/bgpattern.png')",
-        'side-pattern': "url('./src/assets/images/BACKGROUND.png')",
+        'bg-pattern': "url('/bgpattern.png')",
       }, colors: {
         'primary': '#00adb5',
         'primarybg': '#133d57',
