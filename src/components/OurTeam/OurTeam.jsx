@@ -49,8 +49,8 @@ export default function OurTeam() {
                 <p className='text-sm w-2/3'>Cras eu dignissim mauris. Duis imperdiet erat sapien, molestie aliquet arcu tincidunt id. Mauris sit amet quam mi. Duis porttitor lectus quis turpis malesuada, eu luctus elit dignissim.</p>
             </div>
             <div className="p-10 flex flex-wrap justify-center items-center gap-4 gap-y-36 mt-28">
-                {team.map((member) => (<>
-                    <div className="bg-primary md:w-1/5 h-full p-4">
+                {team.map((member, index) => (<>
+                    <div key={index} className="bg-primary md:w-1/5 h-full p-4">
                         <div className="bg-white h-52 relative">
                             <img src={member.image} className='h-[170%] object-cover absolute bottom-0' alt="" />
                         </div>

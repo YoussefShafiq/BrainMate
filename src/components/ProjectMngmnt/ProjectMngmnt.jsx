@@ -10,10 +10,10 @@ export default function ProjectMngmnt() {
             <img src={pattern} className='absolute left-0 top-1/2 -translate-y-1/2 w-1/4 object-cover' alt="pattern" />
             <div className="md:w-1/2 flex flex-col gap-5 text-textprimary">
                 <h1 className='text-4xl font-semibold gap-x-3 flex flex-wrap'>Project
-                    <h1 className='relative w-fit'>
+                    <span className='relative w-fit'>
                         Management
                         <img src={vector} className='absolute w-full right-0' alt="" />
-                    </h1>
+                    </span>
                 </h1>
                 <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
                 <button onClick={() => { window.location.href = 'https://brainmate.vercel.app' }} className="bg-primary capitalize text-white py-2 px-4 rounded-lg flex justify-center items-center gap-2 w-fit">
