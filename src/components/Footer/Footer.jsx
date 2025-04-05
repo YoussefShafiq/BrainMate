@@ -6,8 +6,8 @@ import { faApple, faWindows, faAndroid, faFacebook, faLinkedin, faSquareXTwitter
 export default function Footer() {
     return (
         <div className="bg-primarybg bg-bg-pattern bg-cover text-white">
-            <div className="py-20 flex flex-col justify-center items-center gap-1">
-                <h1 className='capitalize font-bold text-5xl'>try BRAINMATE today</h1>
+            <div className="py-20 px-5 text-center flex flex-col justify-center items-center gap-1">
+                <h1 className='capitalize font-bold text-3xl md:text-5xl'>try BRAINMATE today</h1>
                 <p>Get started for free.</p>
                 <p>Add your whole team as your needs grow.</p>
 
@@ -25,8 +25,8 @@ export default function Footer() {
                     <FontAwesomeIcon icon={faAndroid} className="h-10" />
                 </div>
             </div>
-            <div className="border-t border-t-1 border-opacity-15 px-10 p-5 border-white flex justify-between items-center">
-                <div className="flex gap-4 text-sm text-[#ffffffae]">
+            <div className="border-t border-t-1 border-opacity-15 px-10 p-5 border-white flex md:flex-row flex-col-reverse justify-center md:justify-between items-center gap-5">
+                <div className="flex flex-wrap justify-center gap-4 text-sm text-[#ffffffae]">
                     <a href="">Terms & privacy</a>
                     <a href="">Security</a>
                     <a href="">status</a>

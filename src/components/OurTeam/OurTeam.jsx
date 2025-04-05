@@ -44,14 +44,14 @@ export default function OurTeam() {
 
     return <>
         <div className="py-10">
-            <div className="text-textprimary uppercase flex flex-col text-center justify-center items-center">
-                <h1 className='text-6xl'>meet our <span className='font-bold'>best team</span></h1>
+            <div className="text-textprimary uppercase flex flex-col text-center justify-center items-center px-5 md:px-0">
+                <h1 className='text-5xl md:text-6xl'>meet our <span className='font-bold'>best team</span></h1>
                 <p className='text-sm w-2/3'>Cras eu dignissim mauris. Duis imperdiet erat sapien, molestie aliquet arcu tincidunt id. Mauris sit amet quam mi. Duis porttitor lectus quis turpis malesuada, eu luctus elit dignissim.</p>
             </div>
             <div className="p-10 flex flex-wrap justify-center items-center gap-4 gap-y-36 mt-28">
                 {team.map((member) => (<>
-                    <div className="bg-primary w-1/5 h-full p-4">
-                        <div className="bg-white h-52 full relative">
+                    <div className="bg-primary md:w-1/5 h-full p-4">
+                        <div className="bg-white h-52 relative">
                             <img src={member.image} className='h-[170%] object-cover absolute bottom-0' alt="" />
                         </div>
                         <div className="flex flex-col justify-center items-center capitalize pt-4 text-white">

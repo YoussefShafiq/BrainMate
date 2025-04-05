@@ -6,10 +6,10 @@ import vector from '../../assets/images/Vector.png'
 
 export default function ProjectMngmnt() {
     return <>
-        <div className="flex justify-center items-center gap-10 px-20 py-10 relative">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-10 px-5 md:px-20 py-10 relative">
             <img src={pattern} className='absolute left-0 top-1/2 -translate-y-1/2 w-1/4 object-cover' alt="pattern" />
-            <div className="w-1/2 flex flex-col gap-5 text-textprimary">
-                <h1 className='text-5xl font-semibold gap-x-3 flex'>Project
+            <div className="md:w-1/2 flex flex-col gap-5 text-textprimary">
+                <h1 className='text-4xl font-semibold gap-x-3 flex flex-wrap'>Project
                     <h1 className='relative w-fit'>
                         Management
                         <img src={vector} className='absolute w-full right-0' alt="" />
@@ -21,7 +21,7 @@ export default function ProjectMngmnt() {
                     <ArrowRightIcon size={17} className='opacity-60' />
                 </button>
             </div>
-            <div className="w-1/2 flex justify-center items-center">
+            <div className="md:w-1/2 flex justify-center items-center">
                 <img src={tasksimage} className='w-full' alt="tasksimage" />
             </div>
         </div>

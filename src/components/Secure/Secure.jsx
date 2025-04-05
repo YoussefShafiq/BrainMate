@@ -5,10 +5,10 @@ import vector from '../../assets/images/Vector.png'
 
 export default function Secure() {
     return <>
-        <div className="flex justify-center items-center gap-10 px-20 py-16 relative">
-            <div className="w-1/2 flex flex-col gap-5 text-textprimary">
-                <h1 className='text-5xl font-semibold gap-x-3 flex'>100%
-                    <h1 className='relative w-fit'>
+        <div className="flex md:flex-row flex-col justify-center items-center gap-10 p-5 md:px-20 py-16 relative">
+            <div className="md:w-1/2 flex flex-col gap-5 text-textprimary">
+                <h1 className='text-5xl md:text-5xl font-semibold gap-x-3 flex flex-wrap'>100%
+                    <h1 className='relative w-max'>
                         Your data
                         <img src={vector} className='absolute w-full right-0' alt="" />
                     </h1>
@@ -19,7 +19,7 @@ export default function Secure() {
                     <ArrowRightIcon size={17} className='opacity-60' />
                 </button>
             </div>
-            <div className="w-1/2 flex justify-center items-center">
+            <div className="md:w-1/2 flex justify-center items-center">
                 <img src={Securimg} className='w-full' alt="tasksimage" />
             </div>
         </div>
