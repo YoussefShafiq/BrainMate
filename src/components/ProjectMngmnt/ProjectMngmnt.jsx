@@ -1,5 +1,5 @@
 import React from 'react'
-import pattern from '../../assets/images/background.png'
+import pattern from '../../assets/images/BACKGROUND.png'
 import { ArrowRightIcon } from 'lucide-react'
 import tasksimage from '../../assets/images/tasksimage.png'
 import vector from '../../assets/images/Vector.png'
