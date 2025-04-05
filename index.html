@@ -3,14 +3,82 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/brainmate.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BrainMate</title>
+
+  <!-- Primary Meta Tags -->
+  <title>BrainMate | AI-Powered Task Management & Productivity System</title>
+  <meta name="title" content="BrainMate | AI-Powered Task Management & Productivity System">
+  <meta name="description"
+    content="Organize, prioritize, and automate your tasks with BrainMate's AI-driven task management system. Get smart suggestions, automatic scheduling, and productivity insights.">
+  <meta name="keywords"
+    content="BrainMate, AI task manager, productivity app, smart to-do list, task automation, time management">
+  <meta name="author" content="BrainMate">
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicon & App Icons -->
+  <link rel="icon" type="image/svg+xml" href="/brainmate.png" />
+  <link rel="apple-touch-icon" href="/brainmate-apple-touch.png">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://brain-mate.vercel.app/">
+  <meta property="og:title" content="BrainMate | AI-Powered Task Management System">
+  <meta property="og:description"
+    content="Your smart AI assistant for task management. Automate, organize, and boost productivity.">
+  <meta property="og:image" content="https://brain-mate.vercel.app/social-preview.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://brain-mate.vercel.app/">
+  <meta property="twitter:title" content="BrainMate | AI-Powered Task Management">
+  <meta property="twitter:description" content="Organize, prioritize, and automate your tasks with AI intelligence.">
+  <meta property="twitter:image" content="https://brain-mate.vercel.app/social-preview.png">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://brain-mate.vercel.app/" />
+
+  <!-- Structured Data for Task Management Application -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "BrainMate",
+      "description": "AI-powered task management system",
+      "url": "https://brain-mate.vercel.app",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "BrainMate"
+      },
+      "keywords": ["AI task manager", "productivity", "task automation", "time management"]
+    }
+  </script>
 </head>
 
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+
+  <!-- Progressive Enhancement -->
+  <noscript>
+    <div style="max-width: 800px; margin: 0 auto; padding: 2rem; text-align: center; font-family: sans-serif;">
+      <img src="/brainmate.png" alt="BrainMate Logo" width="120" style="margin-bottom: 1rem;">
+      <h1>BrainMate AI Task Manager</h1>
+      <p>Our application requires JavaScript to provide the full AI-powered task management experience.</p>
+      <p>Please enable JavaScript in your browser settings or try one of these browsers:</p>
+      <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem;">
+        <a href="https://www.google.com/chrome/" style="text-decoration: none;">Chrome</a>
+        <a href="https://www.mozilla.org/firefox/" style="text-decoration: none;">Firefox</a>
+        <a href="https://www.microsoft.com/edge" style="text-decoration: none;">Edge</a>
+      </div>
+    </div>
+  </noscript>
 </body>
 
 </html>
