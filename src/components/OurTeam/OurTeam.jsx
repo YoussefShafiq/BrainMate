@@ -4,6 +4,7 @@ import u2 from '../../assets/images/U-2.png'
 import u3 from '../../assets/images/U-3.png'
 import u4 from '../../assets/images/U-4.png'
 import u5 from '../../assets/images/U-5.png'
+import u6 from '../../assets/images/U-5.png'
 
 export default function OurTeam() {
 
@@ -36,7 +37,7 @@ export default function OurTeam() {
         },
         {
             name: 'youssef salem',
-
+            image: u6,
             position: 'flutter developer'
         },
 
@@ -52,7 +53,10 @@ export default function OurTeam() {
                 {team.map((member, index) => (<>
                     <div key={index} className="bg-primary md:w-1/5 h-full p-4">
                         <div className="bg-white h-52 relative">
-                            <img src={member.image} className='h-[170%] object-cover absolute bottom-0' alt="" />
+                            {member.image ? <>
+                                <img src={member.image} className='h-[170%] object-cover absolute bottom-0' alt="" />
+                            </> : <div className='h-full flex justify-center items-center' >
+                                Developer missing</div>}
                         </div>
                         <div className="flex flex-col justify-center items-center capitalize pt-4 text-white">
                             <h1 className='w-max'>{member.name}</h1>
