@@ -3,8 +3,8 @@ import u1 from '../../assets/images/U-1.png'
 import u2 from '../../assets/images/U-2.png'
 import u3 from '../../assets/images/U-3.png'
 import u4 from '../../assets/images/U-4.png'
-import u5 from '../../assets/images/U-5.png'
-import u6 from '../../assets/images/U-5.png'
+import u5 from '../../assets/images/photo_2025-06-13_01-01-56.png'
+import u6 from '../../assets/images/image.png'
 
 export default function OurTeam() {
 
